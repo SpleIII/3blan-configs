@@ -428,7 +428,7 @@
           "Villagers": false,
           "Slimes": false,
           "Hostiles": false,
-          "OnlyAngryHostiles": true,
+          "OnlyAngryHostiles": false,
           "Projectiles": false,
           "IgnoreInvisibleEntities": false,
           "IgnoreNamed": false,
