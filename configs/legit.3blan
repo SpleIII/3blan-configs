@@ -420,7 +420,7 @@
           "AttackCooldown": 0.90999997,
           "AttackBaseTime": 0.5,
           "AttackTickLimit": 11,
-          "CritFallDistance": 0.6,
+          "CritFallDistance": 0.0,
           "Targets": "thunder.hack.setting.impl.SettingGroup@11b164eb",
           "Players": true,
           "Mobs": false,
