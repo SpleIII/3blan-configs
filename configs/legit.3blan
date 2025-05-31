@@ -3,18 +3,18 @@
     "Modules": [
       {
         "2DCompanion": {
-          "Scale": 25,
+          "Scale": 34,
           "Mode": "Boykisser",
           "Position": [
-            0.75121313,
-            0.76238006
+            0.78152955,
+            0.008408653
           ],
           "Keybind": [
             -1,
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
@@ -66,7 +66,7 @@
       {
         "AirPlace": {
           "Range": 5.0,
-          "Render": "thunder.hack.setting.impl.SettingGroup@736ba671",
+          "Render": "eblan.client.setting.impl.SettingGroup@4f288acf",
           "Swing": true,
           "Fill Color": [
             845427455,
@@ -124,7 +124,7 @@
           "OnlyAura": false,
           "DisableSwapMain": true,
           "DisableSwapOff": true,
-          "Mode": "Fourteen",
+          "Mode": "Eight",
           "SlowAnimation": false,
           "SlowValue": 12,
           "Keybind": [
@@ -225,7 +225,7 @@
             false
           ],
           "Drawn": true,
-          "Enabled": true
+          "Enabled": false
         }
       },
       {
@@ -311,8 +311,8 @@
         "ArmorHud": {
           "Mode": "V2",
           "Position": [
-            0.7386754,
-            0.9215786
+            0.69843286,
+            0.82290345
           ],
           "Keybind": [
             -1,
@@ -362,38 +362,38 @@
       },
       {
         "Aura": {
-          "Range": 3.2,
-          "ThroughWallsRange": 3.2,
+          "Range": 3.3099997,
+          "ThroughWallsRange": 6.0,
           "ElytraOverride": true,
-          "ElytraRange": 3.51,
-          "ElytraThroughWallsRange": 3.51,
+          "ElytraRange": 4.5,
+          "ElytraThroughWallsRange": 4.5,
           "WallsBypass": "Off",
           "FOV": 180,
           "RotationMode": "Track",
           "InteractTicks": 10,
-          "AutoWeapon": "Silent",
+          "AutoWeapon": "None",
           "OnlyWeapon": false,
           "SmartCrit": true,
-          "OnlyCrit": true,
+          "OnlyCrit": false,
           "AutoJump": false,
           "ShieldBreaker": true,
           "PauseWhileEating": false,
           "TPSSync": false,
-          "ClientLook": true,
+          "ClientLook": false,
           "PauseBaritone": false,
           "OldDelay": false,
           "MinCPS": 12,
           "MaxCPS": 14,
           "ESP": "NurikZapen",
-          "ESPSettings": "thunder.hack.setting.impl.SettingGroup@22cc1f24",
+          "ESPSettings": "eblan.client.setting.impl.SettingGroup@2278f3b9",
           "ESPLength": 15,
           "ESPFactor": 10,
           "ESPShaking": 1.8,
           "ESPAmplitude": 3.0,
-          "Sort": "LowestDistance",
+          "Sort": "LowestHealth",
           "LockTarget": true,
           "ElytraTarget": true,
-          "Advanced": "thunder.hack.setting.impl.SettingGroup@3fc7054c",
+          "Advanced": "eblan.client.setting.impl.SettingGroup@4731abb5",
           "AimRange": 6.0,
           "RandomHitDelay": false,
           "PauseInInventory": true,
@@ -421,7 +421,7 @@
           "AttackBaseTime": 0.5,
           "AttackTickLimit": 11,
           "CritFallDistance": 0.0,
-          "Targets": "thunder.hack.setting.impl.SettingGroup@11b164eb",
+          "Targets": "eblan.client.setting.impl.SettingGroup@41a04be2",
           "Players": true,
           "Mobs": false,
           "Animals": false,
@@ -696,8 +696,8 @@
           "IDPredict": false,
           "IDAttacks": 3,
           "IDPredictOnlyDuels": false,
-          "TargetESP": "ThunderHack",
-          "ESPSettings": "thunder.hack.setting.impl.SettingGroup@26824141",
+          "TargetESP": "EblanClient",
+          "ESPSettings": "eblan.client.setting.impl.SettingGroup@2fd50823",
           "ESPLength": 14,
           "ESPFactor": 8,
           "ESPShaking": 1.8,
@@ -882,7 +882,7 @@
           "AutoDisable": true,
           "InstantLeave": true,
           "Command": "hub",
-          "Leave if": "thunder.hack.setting.impl.SettingGroup@21e8ddb8",
+          "Leave if": "eblan.client.setting.impl.SettingGroup@6573626f",
           "LowHp": false,
           "Totems": false,
           "TotemsCount": 2,
@@ -944,7 +944,7 @@
       },
       {
         "AutoSoup": {
-          "TriggerHealth": 7.0,
+          "TriggerHealth": 5.17,
           "Keybind": [
             -1,
             false
@@ -1006,18 +1006,18 @@
           ],
           "Swap": "GappleShield",
           "NCPStrict": false,
-          "HP": 4.0,
+          "HP": 4.8,
           "ShieldGappleHp": 0.0,
           "CalcAbsorption": true,
           "StopMotion": false,
           "ResetAttackCooldown": false,
-          "Safety": "thunder.hack.setting.impl.SettingGroup@3b647352",
-          "HotbarFallback": false,
+          "Safety": "eblan.client.setting.impl.SettingGroup@264fda78",
+          "HotbarFallback": true,
           "FallBackCalc": false,
           "OnElytra": false,
           "OnFall": false,
           "OnCrystal": false,
-          "OnObsidianPlace": false,
+          "OnObsidianPlace": true,
           "OnCrystalInHand": false,
           "OnMinecartTNT": false,
           "OnCreeper": false,
@@ -1030,7 +1030,7 @@
             false
           ],
           "Drawn": true,
-          "Enabled": true
+          "Enabled": false
         }
       },
       {
@@ -1039,7 +1039,7 @@
           "BuyItem": "apple",
           "Sell": false,
           "SellItem": "bread",
-          "Disable": "thunder.hack.setting.impl.SettingGroup@7561488d",
+          "Disable": "eblan.client.setting.impl.SettingGroup@4201f3dd",
           "NoVillagers": true,
           "NoItems": false,
           "Keybind": [
@@ -1069,7 +1069,7 @@
           "Remove": false,
           "Break Mode": "Normal",
           "Anti Weakness": false,
-          "Blocks": "thunder.hack.setting.impl.SettingGroup@415d8729",
+          "Blocks": "eblan.client.setting.impl.SettingGroup@45126fae",
           "Obsidian": true,
           "Anchor": false,
           "EnderChest": true,
@@ -1077,7 +1077,7 @@
           "Crying Obsidian": true,
           "Dirt": false,
           "OakPlanks": false,
-          "Pause": "thunder.hack.setting.impl.SettingGroup@263f87a7",
+          "Pause": "eblan.client.setting.impl.SettingGroup@3b0c1d79",
           "On Eat": false,
           "On Break": false,
           "Render": true,
@@ -1121,12 +1121,12 @@
           "Interact": "Strict",
           "PlaceMode": "Normal",
           "Rotate": "None",
-          "Selection": "thunder.hack.setting.impl.SettingGroup@3ed98ed1",
+          "Selection": "eblan.client.setting.impl.SettingGroup@63c89c7a",
           "Head": true,
           "Leggs": true,
           "Surround": true,
           "UpperSurround": false,
-          "Render": "thunder.hack.setting.impl.SettingGroup@41839ca7",
+          "Render": "eblan.client.setting.impl.SettingGroup@2e9a14c5",
           "Render Mode": "Fade",
           "Render Fill Color": [
             -6974059,
@@ -1234,7 +1234,7 @@
         "BlockHighLight": {
           "Mode": "Outline",
           "Color": [
-            -16711804,
+            -8716033,
             true
           ],
           "LineWidth": 5.0,
@@ -1250,13 +1250,13 @@
         "Blocker": {
           "Place Per Tick": 1,
           "Delay": 0,
-          "Logic": "thunder.hack.setting.impl.SettingGroup@6cca2f71",
+          "Logic": "eblan.client.setting.impl.SettingGroup@782371a7",
           "Anti Cev": true,
           "Anti Civ": true,
           "Expand": true,
           "Anti TNT": false,
           "Anti Anchor": false,
-          "Detect": "thunder.hack.setting.impl.SettingGroup@36928ff0",
+          "Detect": "eblan.client.setting.impl.SettingGroup@239f4c0f",
           "On Break Packet": true,
           "On Attack Block": false,
           "On Break": false,
@@ -1271,7 +1271,7 @@
           "Remove": false,
           "Break Mode": "Normal",
           "Anti Weakness": false,
-          "Blocks": "thunder.hack.setting.impl.SettingGroup@444f30f5",
+          "Blocks": "eblan.client.setting.impl.SettingGroup@4932f4a",
           "Obsidian": true,
           "Anchor": false,
           "EnderChest": true,
@@ -1279,7 +1279,7 @@
           "Crying Obsidian": true,
           "Dirt": false,
           "OakPlanks": false,
-          "Pause": "thunder.hack.setting.impl.SettingGroup@19f4ea7f",
+          "Pause": "eblan.client.setting.impl.SettingGroup@7ad12f21",
           "On Eat": false,
           "Render": true,
           "Render Mode": "All",
@@ -1310,7 +1310,7 @@
           "AllowShift": true,
           "Speed": 2.0,
           "YSpeed": 1.0,
-          "Advanced": "thunder.hack.setting.impl.SettingGroup@24f8ff97",
+          "Advanced": "eblan.client.setting.impl.SettingGroup@191cc795",
           "GlideSpeed": 0.0,
           "ClickSlot": false,
           "Limit": true,
@@ -1342,7 +1342,7 @@
           "Scale": 0.01,
           "Minimize": false,
           "Delay": 5.01,
-          "Selection": "thunder.hack.setting.impl.SettingGroup@63709f7",
+          "Selection": "eblan.client.setting.impl.SettingGroup@403a0f8d",
           "Bows": true,
           "EPearls": true,
           "XP": true,
@@ -1691,15 +1691,15 @@
         "Coords": {
           "NetherCoords": "On",
           "Position": [
-            0.022142183,
-            0.8829449
+            0.0043953084,
+            0.050991483
           ],
           "Keybind": [
             -1,
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
@@ -1717,7 +1717,7 @@
         "Crosshair": {
           "Mode": "Circle",
           "Animated": true,
-          "Dot": false,
+          "Dot": true,
           "T": false,
           "ColorMode": "Custom",
           "Color": [
@@ -1725,15 +1725,15 @@
             false
           ],
           "Dynamic": false,
-          "Range": 30.0,
-          "Speed": 3.0,
-          "BackSpeed": 5.0,
+          "Range": 1.56,
+          "Speed": 20.0,
+          "BackSpeed": 20.0,
           "Keybind": [
             -1,
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
@@ -1842,7 +1842,7 @@
             -1291783732,
             false
           ],
-          "Box": "thunder.hack.setting.impl.SettingGroup@3b42495c",
+          "Box": "eblan.client.setting.impl.SettingGroup@5d4e81bf",
           "Players": false,
           "Friends": false,
           "Crystals": false,
@@ -1853,7 +1853,7 @@
           "Outline": false,
           "ColorMode": "SyncColor",
           "renderHealth": true,
-          "BoxColors": "thunder.hack.setting.impl.SettingGroup@55bfb59",
+          "BoxColors": "eblan.client.setting.impl.SettingGroup@2e150510",
           "PlayersC": [
             -28160,
             false
@@ -2125,20 +2125,20 @@
       {
         "Fps": {
           "Position": [
-            0.006388093,
-            0.05307842
+            0.0048619756,
+            0.0070860563
           ],
           "Keybind": [
             -1,
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
         "FreeCam": {
-          "HSpeed": 0.9,
+          "HSpeed": 0.40000004,
           "VSpeed": 0.42,
           "Freeze": true,
           "Track": false,
@@ -2201,8 +2201,8 @@
       },
       {
         "HitBoxes": {
-          "XZExpand": 1.0,
-          "YExpand": 0.0,
+          "XZExpand": 0.059999995,
+          "YExpand": 0.059999995,
           "AffectToAura": false,
           "Keybind": [
             -1,
@@ -2299,7 +2299,7 @@
           "Delay": 0,
           "Jump Disable": false,
           "Blocks": "All",
-          "Fill Holes": "thunder.hack.setting.impl.SettingGroup@28febbf2",
+          "Fill Holes": "eblan.client.setting.impl.SettingGroup@51ca5f28",
           "Self Fill": false,
           "Self Fill Mode": "Burrow",
           "Single": true,
@@ -2309,7 +2309,7 @@
           "Range To Target": 2.0,
           "Auto Disable": false,
           "Place Mode": "Packet",
-          "Render": "thunder.hack.setting.impl.SettingGroup@23625c2b",
+          "Render": "eblan.client.setting.impl.SettingGroup@419c74fb",
           "Render Mode": "All",
           "Animation Mode": "Fade",
           "Render Fill Color": [
@@ -2336,7 +2336,7 @@
           "Search FOV": 360,
           "Use Timer": false,
           "Timer Value": 1.0,
-          "Auto Disable": "thunder.hack.setting.impl.SettingGroup@c2c2611",
+          "Auto Disable": "eblan.client.setting.impl.SettingGroup@68f6460e",
           "On Death": true,
           "In Hole": true,
           "No Holes": false,
@@ -2360,7 +2360,7 @@
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
@@ -2515,8 +2515,8 @@
           ],
           "OnlyEnabled": true,
           "Position": [
-            0.23848277,
-            0.22731198
+            0.03457858,
+            0.18494606
           ],
           "Keybind": [
             -1,
@@ -2622,39 +2622,39 @@
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
         "LegitHelper": {
-          "Minecarts": true,
+          "Minecarts": false,
           "MaxDistance": 4.0,
           "Refill": true,
           "RefillSlot": 9,
-          "Anchors": true,
-          "AnchorDelay": 50,
+          "Anchors": false,
+          "AnchorDelay": 25,
           "AnchorBind": [
-            89,
+            88,
             false
           ],
-          "Crystals": false,
-          "CrystalDelay": 50,
+          "Crystals": true,
+          "CrystalDelay": 25,
           "CrystalBind": [
-            85,
+            88,
             false
           ],
           "ChangePitch": false,
-          "CrystalOptimizer": false,
-          "SwitchBack": false,
+          "CrystalOptimizer": true,
+          "SwitchBack": true,
           "ShieldBreaker": false,
           "BreakerDelay": 50,
           "SwapBack": true,
-          "WindBoostJump": true,
+          "WindBoostJump": false,
           "WindBoostBind": [
-            73,
+            88,
             false
           ],
-          "CrossBow": true,
+          "CrossBow": false,
           "CrossBowBind": [
             79,
             false
@@ -2665,7 +2665,7 @@
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
@@ -3049,7 +3049,7 @@
         "NoSlow": {
           "Mode": "NCP",
           "MainHand": true,
-          "Selection": "thunder.hack.setting.impl.SettingGroup@25e369c3",
+          "Selection": "eblan.client.setting.impl.SettingGroup@1578a157",
           "Food": true,
           "Projectiles": true,
           "Shield": true,
@@ -3304,15 +3304,15 @@
       {
         "Ping": {
           "Position": [
-            0.11109784,
-            0.052692875
+            0.10156977,
+            0.00790971
           ],
           "Keybind": [
             -1,
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
@@ -3350,7 +3350,7 @@
           "Piston Type": "All",
           "Auto Swap": true,
           "Swing": true,
-          "Render": "thunder.hack.setting.impl.SettingGroup@63586c24",
+          "Render": "eblan.client.setting.impl.SettingGroup@142829a6",
           "Fill Color": [
             855572480,
             false
@@ -3411,15 +3411,15 @@
         "Potions": {
           "Colored": false,
           "Position": [
-            0.09064099,
-            0.38405335
+            0.10626427,
+            0.37104237
           ],
           "Keybind": [
             -1,
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
@@ -3581,7 +3581,7 @@
           "Remove": false,
           "Break Mode": "Normal",
           "Anti Weakness": false,
-          "Blocks": "thunder.hack.setting.impl.SettingGroup@460fc19e",
+          "Blocks": "eblan.client.setting.impl.SettingGroup@7a08ade9",
           "Obsidian": true,
           "Anchor": false,
           "EnderChest": true,
@@ -3589,7 +3589,7 @@
           "Crying Obsidian": true,
           "Dirt": false,
           "OakPlanks": false,
-          "Pause": "thunder.hack.setting.impl.SettingGroup@789c05ed",
+          "Pause": "eblan.client.setting.impl.SettingGroup@2aaac9e6",
           "On Eat": false,
           "On Break": false,
           "Render": true,
@@ -3646,7 +3646,7 @@
       },
       {
         "Shaders": {
-          "Select": "thunder.hack.setting.impl.SettingGroup@58856f96",
+          "Select": "eblan.client.setting.impl.SettingGroup@7f9aa00c",
           "Hands": true,
           "Players": true,
           "Self": true,
@@ -3667,7 +3667,7 @@
           "SmokeOctaves": 10,
           "FillAlpha": 170,
           "SmokeGlow": true,
-          "Colors": "thunder.hack.setting.impl.SettingGroup@47c40b7f",
+          "Colors": "eblan.client.setting.impl.SettingGroup@4698dbe2",
           "Outline": [
             -2013200640,
             false
@@ -3754,7 +3754,7 @@
           "PauseInLiquids": false,
           "PauseWhileSneaking": false,
           "HurtTime": 0,
-          "BoostFactor": 0.55,
+          "BoostFactor": 0.13111112,
           "AllowOffGround": true,
           "ShiftTicks": 0,
           "FireSlot": 2,
@@ -3786,7 +3786,7 @@
           "BreakAttempts": 10,
           "Pause On Eat": false,
           "ClientRemove": true,
-          "Packets": "thunder.hack.setting.impl.SettingGroup@7f7f2128",
+          "Packets": "eblan.client.setting.impl.SettingGroup@79c0513d",
           "Stop": true,
           "Abort": true,
           "Start": true,
@@ -3821,11 +3821,11 @@
       },
       {
         "Speedometer": {
-          "BPS": false,
+          "BPS": true,
           "Average": false,
           "Position": [
-            0.005851765,
-            0.959817
+            0.0038996483,
+            0.96340096
           ],
           "Keybind": [
             -1,
@@ -3850,15 +3850,15 @@
       {
         "StaffBoard": {
           "Position": [
-            0.17564145,
-            0.053003743
+            0.24908102,
+            0.007746124
           ],
           "Keybind": [
             -1,
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
@@ -3978,7 +3978,7 @@
           "Blocks/Place": 8,
           "Delay/Place": 3,
           "Center": "Disabled",
-          "Auto Disable": "thunder.hack.setting.impl.SettingGroup@67d4f047",
+          "Auto Disable": "eblan.client.setting.impl.SettingGroup@5d9421a",
           "On Y Change": true,
           "On Tp": "None",
           "On Death": false,
@@ -3993,7 +3993,7 @@
           "Remove": false,
           "Break Mode": "Normal",
           "Anti Weakness": false,
-          "Blocks": "thunder.hack.setting.impl.SettingGroup@14dedaf4",
+          "Blocks": "eblan.client.setting.impl.SettingGroup@2f69086d",
           "Obsidian": true,
           "Anchor": false,
           "EnderChest": true,
@@ -4001,7 +4001,7 @@
           "Crying Obsidian": true,
           "Dirt": false,
           "OakPlanks": false,
-          "Pause": "thunder.hack.setting.impl.SettingGroup@73a6a4e3",
+          "Pause": "eblan.client.setting.impl.SettingGroup@2fae91a9",
           "On Eat": false,
           "On Break": false,
           "Render": true,
@@ -4031,7 +4031,7 @@
           "Delay/Place": 3,
           "PlaceMode": "Normal",
           "Rotate": "None",
-          "Render": "thunder.hack.setting.impl.SettingGroup@7556bdde",
+          "Render": "eblan.client.setting.impl.SettingGroup@549c64d8",
           "RenderMode": "Fade",
           "Fill": [
             -6974059,
@@ -4052,17 +4052,17 @@
       },
       {
         "TPS": {
-          "ExtraTPS": true,
+          "ExtraTPS": false,
           "Position": [
-            0.9526277,
-            0.9518603
+            0.9541406,
+            0.960937
           ],
           "Keybind": [
             -1,
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
@@ -4100,8 +4100,8 @@
           "Mini": true,
           "Absorption": true,
           "Position": [
-            0.40336403,
-            0.6873861
+            0.4042662,
+            0.71874976
           ],
           "Keybind": [
             -1,
@@ -4165,8 +4165,8 @@
       {
         "TimerIndicator": {
           "Position": [
-            0.5,
-            0.5
+            0.494584,
+            0.5103789
           ],
           "Keybind": [
             -1,
@@ -4353,14 +4353,14 @@
           "AutoJump": false,
           "IgnoreWalls": false,
           "PauseWhileEating": true,
-          "RandomDelayMin": 20,
-          "RandomDelayMax": 20,
+          "RandomDelayMin": 12,
+          "RandomDelayMax": 12,
           "Keybind": [
             89,
             false
           ],
           "Drawn": true,
-          "Enabled": true
+          "Enabled": false
         }
       },
       {
@@ -4429,36 +4429,36 @@
       },
       {
         "ViewModel": {
-          "SyncHands": true,
-          "MainHand": "thunder.hack.setting.impl.SettingGroup@35c03dfb",
-          "positionMainX": 0.13333334,
-          "positionMainY": 0.0,
-          "positionMainZ": 0.0,
-          "ScaleMain": 1.0,
-          "Rotation": "thunder.hack.setting.impl.SettingGroup@57ab48cd",
+          "SyncHands": false,
+          "MainHand": "eblan.client.setting.impl.SettingGroup@1b1a35c3",
+          "positionMainX": 0.0,
+          "positionMainY": 0.06666667,
+          "positionMainZ": -0.2,
+          "ScaleMain": 0.52,
+          "Rotation": "eblan.client.setting.impl.SettingGroup@7cd77cad",
           "rotationMainX": 0.0,
           "rotationMainY": 0.0,
           "rotationMainZ": 0.0,
-          "Animate": "thunder.hack.setting.impl.SettingGroup@116c7f67",
+          "Animate": "eblan.client.setting.impl.SettingGroup@27af9947",
           "animateMainX": false,
           "animateMainY": false,
           "animateMainZ": false,
           "speedAnimateMain": 1.0,
-          "OffHand": "thunder.hack.setting.impl.SettingGroup@519488d9",
-          "positionOffX": 0.13333334,
-          "positionOffY": 0.0,
-          "positionOffZ": 0.0,
-          "ScaleOff": 1.0,
-          "RotationOff": "thunder.hack.setting.impl.SettingGroup@658f48f5",
+          "OffHand": "eblan.client.setting.impl.SettingGroup@10a293ce",
+          "positionOffX": -0.8666667,
+          "positionOffY": -0.46666667,
+          "positionOffZ": -1.6,
+          "ScaleOff": 0.52,
+          "RotationOff": "eblan.client.setting.impl.SettingGroup@5adc0834",
           "rotationOffX": 0.0,
           "rotationOffY": 0.0,
           "rotationOffZ": 0.0,
-          "AnimateOff": "thunder.hack.setting.impl.SettingGroup@686f89a9",
+          "AnimateOff": "eblan.client.setting.impl.SettingGroup@1da935d6",
           "animateOffX": false,
           "animateOffY": false,
           "animateOffZ": false,
           "speedAnimateOff": 1.0,
-          "Eat": "thunder.hack.setting.impl.SettingGroup@1a8a5484",
+          "Eat": "eblan.client.setting.impl.SettingGroup@4617e285",
           "EatX": 1.0,
           "EatY": 1.0,
           "Keybind": [
@@ -4501,18 +4501,18 @@
       },
       {
         "WaterMark": {
-          "Mode": "Small",
+          "Mode": "BaltikaClient",
           "RU": true,
           "Position": [
-            0.0044876193,
-            0.0071790214
+            0.8008419,
+            0.004140558
           ],
           "Keybind": [
             -1,
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
