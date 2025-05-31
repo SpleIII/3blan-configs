@@ -1,4 +1,4 @@
-legit;SpleIII;26.05.2025
+legit;SpleIII;31.05.2025
 only_trigger;SpleIII;09.05.2025
-HvH;SpleIII;30.05.2025
-RipServer;SpleIII;30.05.2025
+HvH;SpleIII;31.05.2025
+RipServer;SpleIII;31.05.2025
