@@ -66,7 +66,7 @@
       {
         "AirPlace": {
           "Range": 5.0,
-          "Render": "eblan.client.setting.impl.SettingGroup@4f288acf",
+          "Render": "eblan.client.setting.impl.SettingGroup@26e721d6",
           "Swing": true,
           "Fill Color": [
             845427455,
@@ -369,7 +369,7 @@
           "ElytraThroughWallsRange": 5.5,
           "WallsBypass": "Off",
           "FOV": 180,
-          "RotationMode": "None",
+          "RotationMode": "Track",
           "InteractTicks": 10,
           "AutoWeapon": "None",
           "OnlyWeapon": false,
@@ -379,13 +379,13 @@
           "ShieldBreaker": true,
           "PauseWhileEating": true,
           "TPSSync": false,
-          "ClientLook": true,
+          "ClientLook": false,
           "PauseBaritone": false,
           "OldDelay": false,
           "MinCPS": 12,
           "MaxCPS": 14,
           "ESP": "NurikZapen",
-          "ESPSettings": "eblan.client.setting.impl.SettingGroup@2278f3b9",
+          "ESPSettings": "eblan.client.setting.impl.SettingGroup@1cb93e65",
           "ESPLength": 15,
           "ESPFactor": 10,
           "ESPShaking": 1.8,
@@ -393,7 +393,7 @@
           "Sort": "LowestHealth",
           "LockTarget": true,
           "ElytraTarget": true,
-          "Advanced": "eblan.client.setting.impl.SettingGroup@4731abb5",
+          "Advanced": "eblan.client.setting.impl.SettingGroup@5bf1821d",
           "AimRange": 6.0,
           "RandomHitDelay": false,
           "PauseInInventory": true,
@@ -421,7 +421,7 @@
           "AttackBaseTime": 0.0,
           "AttackTickLimit": 12,
           "CritFallDistance": 0.0,
-          "Targets": "eblan.client.setting.impl.SettingGroup@41a04be2",
+          "Targets": "eblan.client.setting.impl.SettingGroup@6bc9e489",
           "Players": true,
           "Mobs": false,
           "Animals": false,
@@ -697,7 +697,7 @@
           "IDAttacks": 3,
           "IDPredictOnlyDuels": false,
           "TargetESP": "EblanClient",
-          "ESPSettings": "eblan.client.setting.impl.SettingGroup@2fd50823",
+          "ESPSettings": "eblan.client.setting.impl.SettingGroup@21a0c343",
           "ESPLength": 14,
           "ESPFactor": 8,
           "ESPShaking": 1.8,
@@ -882,7 +882,7 @@
           "AutoDisable": true,
           "InstantLeave": true,
           "Command": "hub",
-          "Leave if": "eblan.client.setting.impl.SettingGroup@6573626f",
+          "Leave if": "eblan.client.setting.impl.SettingGroup@76964c00",
           "LowHp": false,
           "Totems": false,
           "TotemsCount": 2,
@@ -1011,7 +1011,7 @@
           "CalcAbsorption": true,
           "StopMotion": false,
           "ResetAttackCooldown": false,
-          "Safety": "eblan.client.setting.impl.SettingGroup@264fda78",
+          "Safety": "eblan.client.setting.impl.SettingGroup@52df13f7",
           "HotbarFallback": false,
           "FallBackCalc": false,
           "OnElytra": false,
@@ -1039,7 +1039,7 @@
           "BuyItem": "apple",
           "Sell": false,
           "SellItem": "bread",
-          "Disable": "eblan.client.setting.impl.SettingGroup@4201f3dd",
+          "Disable": "eblan.client.setting.impl.SettingGroup@5ae51222",
           "NoVillagers": true,
           "NoItems": false,
           "Keybind": [
@@ -1069,7 +1069,7 @@
           "Remove": false,
           "Break Mode": "Normal",
           "Anti Weakness": false,
-          "Blocks": "eblan.client.setting.impl.SettingGroup@45126fae",
+          "Blocks": "eblan.client.setting.impl.SettingGroup@7d7878e6",
           "Obsidian": true,
           "Anchor": false,
           "EnderChest": true,
@@ -1077,7 +1077,7 @@
           "Crying Obsidian": true,
           "Dirt": false,
           "OakPlanks": false,
-          "Pause": "eblan.client.setting.impl.SettingGroup@3b0c1d79",
+          "Pause": "eblan.client.setting.impl.SettingGroup@39cacd05",
           "On Eat": false,
           "On Break": false,
           "Render": true,
@@ -1121,12 +1121,12 @@
           "Interact": "Strict",
           "PlaceMode": "Normal",
           "Rotate": "None",
-          "Selection": "eblan.client.setting.impl.SettingGroup@63c89c7a",
+          "Selection": "eblan.client.setting.impl.SettingGroup@13202160",
           "Head": true,
           "Leggs": true,
           "Surround": true,
           "UpperSurround": false,
-          "Render": "eblan.client.setting.impl.SettingGroup@2e9a14c5",
+          "Render": "eblan.client.setting.impl.SettingGroup@61264524",
           "Render Mode": "Fade",
           "Render Fill Color": [
             -6974059,
@@ -1209,6 +1209,8 @@
       {
         "BlockESP": {
           "SelectedBlocks": [
+            "suspicious_gravel",
+            "suspicious_sand",
             "player_head"
           ],
           "Range": 128,
@@ -1234,7 +1236,7 @@
         "BlockHighLight": {
           "Mode": "Outline",
           "Color": [
-            -524544,
+            -589569,
             true
           ],
           "LineWidth": 5.0,
@@ -1250,13 +1252,13 @@
         "Blocker": {
           "Place Per Tick": 1,
           "Delay": 0,
-          "Logic": "eblan.client.setting.impl.SettingGroup@782371a7",
+          "Logic": "eblan.client.setting.impl.SettingGroup@5f27aeae",
           "Anti Cev": true,
           "Anti Civ": true,
           "Expand": true,
           "Anti TNT": false,
           "Anti Anchor": false,
-          "Detect": "eblan.client.setting.impl.SettingGroup@239f4c0f",
+          "Detect": "eblan.client.setting.impl.SettingGroup@30eae2aa",
           "On Break Packet": true,
           "On Attack Block": false,
           "On Break": false,
@@ -1271,7 +1273,7 @@
           "Remove": false,
           "Break Mode": "Normal",
           "Anti Weakness": false,
-          "Blocks": "eblan.client.setting.impl.SettingGroup@4932f4a",
+          "Blocks": "eblan.client.setting.impl.SettingGroup@2253eef6",
           "Obsidian": true,
           "Anchor": false,
           "EnderChest": true,
@@ -1279,7 +1281,7 @@
           "Crying Obsidian": true,
           "Dirt": false,
           "OakPlanks": false,
-          "Pause": "eblan.client.setting.impl.SettingGroup@7ad12f21",
+          "Pause": "eblan.client.setting.impl.SettingGroup@718f90fd",
           "On Eat": false,
           "Render": true,
           "Render Mode": "All",
@@ -1310,7 +1312,7 @@
           "AllowShift": true,
           "Speed": 2.0,
           "YSpeed": 1.0,
-          "Advanced": "eblan.client.setting.impl.SettingGroup@191cc795",
+          "Advanced": "eblan.client.setting.impl.SettingGroup@13bf12bc",
           "GlideSpeed": 0.0,
           "ClickSlot": false,
           "Limit": true,
@@ -1342,7 +1344,7 @@
           "Scale": 0.01,
           "Minimize": false,
           "Delay": 5.01,
-          "Selection": "eblan.client.setting.impl.SettingGroup@403a0f8d",
+          "Selection": "eblan.client.setting.impl.SettingGroup@74275dd3",
           "Bows": true,
           "EPearls": true,
           "XP": true,
@@ -1842,7 +1844,7 @@
             -1291783732,
             false
           ],
-          "Box": "eblan.client.setting.impl.SettingGroup@5d4e81bf",
+          "Box": "eblan.client.setting.impl.SettingGroup@493e29ff",
           "Players": false,
           "Friends": false,
           "Crystals": false,
@@ -1853,7 +1855,7 @@
           "Outline": false,
           "ColorMode": "SyncColor",
           "renderHealth": true,
-          "BoxColors": "eblan.client.setting.impl.SettingGroup@2e150510",
+          "BoxColors": "eblan.client.setting.impl.SettingGroup@443b505d",
           "PlayersC": [
             -28160,
             false
@@ -1901,7 +1903,7 @@
       {
         "EbatteSratte": {
           "Delay": 5,
-          "Server": "FunnyGame",
+          "Server": "GlobalChat",
           "Mode": "Default",
           "Keybind": [
             -1,
@@ -2151,6 +2153,16 @@
         }
       },
       {
+        "FtSpider": {
+          "Keybind": [
+            -1,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
         "Fullbright": {
           "MinBright": 0.5,
           "Keybind": [
@@ -2299,7 +2311,7 @@
           "Delay": 0,
           "Jump Disable": false,
           "Blocks": "All",
-          "Fill Holes": "eblan.client.setting.impl.SettingGroup@51ca5f28",
+          "Fill Holes": "eblan.client.setting.impl.SettingGroup@2ffa8094",
           "Self Fill": false,
           "Self Fill Mode": "Burrow",
           "Single": true,
@@ -2309,7 +2321,7 @@
           "Range To Target": 2.0,
           "Auto Disable": false,
           "Place Mode": "Packet",
-          "Render": "eblan.client.setting.impl.SettingGroup@419c74fb",
+          "Render": "eblan.client.setting.impl.SettingGroup@617d997d",
           "Render Mode": "All",
           "Animation Mode": "Fade",
           "Render Fill Color": [
@@ -2336,7 +2348,7 @@
           "Search FOV": 360,
           "Use Timer": false,
           "Timer Value": 1.0,
-          "Auto Disable": "eblan.client.setting.impl.SettingGroup@68f6460e",
+          "Auto Disable": "eblan.client.setting.impl.SettingGroup@59b4257c",
           "On Death": true,
           "In Hole": true,
           "No Holes": false,
@@ -3049,7 +3061,7 @@
         "NoSlow": {
           "Mode": "Grim",
           "MainHand": true,
-          "Selection": "eblan.client.setting.impl.SettingGroup@1578a157",
+          "Selection": "eblan.client.setting.impl.SettingGroup@47932faf",
           "Food": true,
           "Projectiles": true,
           "Shield": true,
@@ -3350,7 +3362,7 @@
           "Piston Type": "All",
           "Auto Swap": true,
           "Swing": true,
-          "Render": "eblan.client.setting.impl.SettingGroup@142829a6",
+          "Render": "eblan.client.setting.impl.SettingGroup@3c16e9e9",
           "Fill Color": [
             855572480,
             false
@@ -3511,14 +3523,14 @@
       },
       {
         "Rotations": {
-          "MoveFix": "Focused",
-          "ClientLook": true,
+          "MoveFix": "Free",
+          "ClientLook": false,
           "Keybind": [
             -1,
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
@@ -3581,7 +3593,7 @@
           "Remove": false,
           "Break Mode": "Normal",
           "Anti Weakness": false,
-          "Blocks": "eblan.client.setting.impl.SettingGroup@7a08ade9",
+          "Blocks": "eblan.client.setting.impl.SettingGroup@49ca75eb",
           "Obsidian": true,
           "Anchor": false,
           "EnderChest": true,
@@ -3589,7 +3601,7 @@
           "Crying Obsidian": true,
           "Dirt": false,
           "OakPlanks": false,
-          "Pause": "eblan.client.setting.impl.SettingGroup@2aaac9e6",
+          "Pause": "eblan.client.setting.impl.SettingGroup@177ac52a",
           "On Eat": false,
           "On Break": false,
           "Render": true,
@@ -3646,7 +3658,7 @@
       },
       {
         "Shaders": {
-          "Select": "eblan.client.setting.impl.SettingGroup@7f9aa00c",
+          "Select": "eblan.client.setting.impl.SettingGroup@1c283f8d",
           "Hands": true,
           "Players": true,
           "Self": true,
@@ -3667,7 +3679,7 @@
           "SmokeOctaves": 10,
           "FillAlpha": 170,
           "SmokeGlow": true,
-          "Colors": "eblan.client.setting.impl.SettingGroup@4698dbe2",
+          "Colors": "eblan.client.setting.impl.SettingGroup@44965b6e",
           "Outline": [
             -2013200640,
             false
@@ -3786,7 +3798,7 @@
           "BreakAttempts": 10,
           "Pause On Eat": false,
           "ClientRemove": true,
-          "Packets": "eblan.client.setting.impl.SettingGroup@79c0513d",
+          "Packets": "eblan.client.setting.impl.SettingGroup@5ee90b3a",
           "Stop": true,
           "Abort": true,
           "Start": true,
@@ -3978,7 +3990,7 @@
           "Blocks/Place": 8,
           "Delay/Place": 3,
           "Center": "Disabled",
-          "Auto Disable": "eblan.client.setting.impl.SettingGroup@5d9421a",
+          "Auto Disable": "eblan.client.setting.impl.SettingGroup@1f7bd658",
           "On Y Change": true,
           "On Tp": "None",
           "On Death": false,
@@ -3993,7 +4005,7 @@
           "Remove": false,
           "Break Mode": "Normal",
           "Anti Weakness": false,
-          "Blocks": "eblan.client.setting.impl.SettingGroup@2f69086d",
+          "Blocks": "eblan.client.setting.impl.SettingGroup@42f2566d",
           "Obsidian": true,
           "Anchor": false,
           "EnderChest": true,
@@ -4001,7 +4013,7 @@
           "Crying Obsidian": true,
           "Dirt": false,
           "OakPlanks": false,
-          "Pause": "eblan.client.setting.impl.SettingGroup@2fae91a9",
+          "Pause": "eblan.client.setting.impl.SettingGroup@34c93876",
           "On Eat": false,
           "On Break": false,
           "Render": true,
@@ -4031,7 +4043,7 @@
           "Delay/Place": 3,
           "PlaceMode": "Normal",
           "Rotate": "None",
-          "Render": "eblan.client.setting.impl.SettingGroup@549c64d8",
+          "Render": "eblan.client.setting.impl.SettingGroup@22ef550e",
           "RenderMode": "Fade",
           "Fill": [
             -6974059,
@@ -4430,35 +4442,35 @@
       {
         "ViewModel": {
           "SyncHands": false,
-          "MainHand": "eblan.client.setting.impl.SettingGroup@1b1a35c3",
+          "MainHand": "eblan.client.setting.impl.SettingGroup@63e79e1d",
           "positionMainX": 0.0,
           "positionMainY": 0.06666667,
           "positionMainZ": -0.2,
           "ScaleMain": 0.52,
-          "Rotation": "eblan.client.setting.impl.SettingGroup@7cd77cad",
+          "Rotation": "eblan.client.setting.impl.SettingGroup@3376ed32",
           "rotationMainX": 0.0,
           "rotationMainY": 0.0,
           "rotationMainZ": 0.0,
-          "Animate": "eblan.client.setting.impl.SettingGroup@27af9947",
+          "Animate": "eblan.client.setting.impl.SettingGroup@4e0179a2",
           "animateMainX": false,
           "animateMainY": false,
           "animateMainZ": false,
           "speedAnimateMain": 1.0,
-          "OffHand": "eblan.client.setting.impl.SettingGroup@10a293ce",
+          "OffHand": "eblan.client.setting.impl.SettingGroup@169e0249",
           "positionOffX": -0.8666667,
           "positionOffY": -0.46666667,
           "positionOffZ": -1.6,
           "ScaleOff": 0.52,
-          "RotationOff": "eblan.client.setting.impl.SettingGroup@5adc0834",
+          "RotationOff": "eblan.client.setting.impl.SettingGroup@49d661f1",
           "rotationOffX": 0.0,
           "rotationOffY": 0.0,
           "rotationOffZ": 0.0,
-          "AnimateOff": "eblan.client.setting.impl.SettingGroup@1da935d6",
+          "AnimateOff": "eblan.client.setting.impl.SettingGroup@4dcd0a84",
           "animateOffX": false,
           "animateOffY": false,
           "animateOffZ": false,
           "speedAnimateOff": 1.0,
-          "Eat": "eblan.client.setting.impl.SettingGroup@4617e285",
+          "Eat": "eblan.client.setting.impl.SettingGroup@8c4a6f6",
           "EatX": 1.0,
           "EatY": 1.0,
           "Keybind": [
