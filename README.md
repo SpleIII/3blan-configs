@@ -4,28 +4,28 @@
 
 # 3blan Client
 
-3blan Client is a lightweight Rest API Client Extension for Visual Studio Code, hand-crafted by [SpleIII](https://github.com/SpleIII) with a focus on **simplicity, clean design and local storage**. The source code is not open source. You can report any Bugs Or Feature requests here.
+3blan Client — это революционный чит-клиент для Minecraft, который предлагает уникальные функции и возможности для улучшения игрового процесса. Cозданный вручную [SpleIII](https://github.com/SpleIII) с акцентом на **простоту, чистый дизайн и локальное хранилище**. Исходный код не является открытым. Вы можете сообщить о любых ошибках или предложениях здесь.
 
-- Buy Client - [CLICK HERE](https://funpay.com/users/8250177/)
+- Купить клиент - [НАЖМИТЕ ЗДЕСЬ](https://playerok.com/profile/SpleIII)
 
-#### Innovations
+#### Инновации
 
-- First to introduce GUI based **API Client for VS Code**.
-- First to introduce **100% local storage** API Client.
-- First to introduce **Scriptless Testing**.
-- First to introduce an **advanced CLI** that runs Requests, Collections and cURL commands.
-- More to come...
+- Первым представил GUI-основанный **API клиент для VS Code**.
+- Первым представил **100% локальное хранилище** API клиента.
+- Первым представил **тестирование без скриптов**.
+- Первым представил **расширенный CLI**, который выполняет запросы, коллекции и команды cURL.
+- Будет больше...
 
-#### Follow Us for Updates
+#### Следите за нашими обновлениями
 
-&nbsp;[![Discord](https://img.shields.io/badge/DISCORD-5865F2)](https://discord.gg/VNRZtf7x6z)
+&nbsp;[![Discord](https://img.shields.io/badge/DISCORD-5865F2)](https://dsc.gg/3blan) &nbsp;[![Telegram](https://img.shields.io/badge/TELEGRAM-0088CC)](https://eblanclient.t.me/)
 <a name="usage"></a>
 
-## Main Features
+## Основные функции
 
-- **Lightweight** and easy to use REST API Client.
-- Supports **Collections and Environment variables**.
-- **Scriptless Testing:** Easily test API responses with a GUI-based interface.
-- **Local Storage:** The extension saves all data locally on the user's device.
-- **Git Sync:** Save requests data in your Git repository for team collaboration.
-- **Advanced CLI:** Run requests, collections and cURL commands from the terminal.
+- **Легкий** и простой в использовании REST API клиент.
+- Поддерживает **коллекции и переменные окружения**.
+- **Тестирование без скриптов:** Легко тестируйте ответы API с помощью интерфейса на основе GUI.
+- **Локальное хранилище:** Расширение сохраняет все данные локально на устройстве пользователя.
+- **Git синхронизация:** Сохраняйте данные запросов в вашем репозитории Git для совместной работы в команде.
+- **Расширенный CLI:** Выполняйте запросы, коллекции и команды cURL из терминала.
