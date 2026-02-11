@@ -65,7 +65,7 @@
           "Замедление": false,
           "Прыгучесть": false,
           "Keybind": [
-            46,
+            -1,
             false
           ],
           "Drawn": true,
@@ -124,7 +124,7 @@
       },
       {
         "AntiWeb": {
-          "Режим": "Ignore",
+          "Режим": "Fly",
           "Грим": true,
           "Таймер": 20.0,
           "Скорость": 0.2,
@@ -140,8 +140,8 @@
       {
         "ArmorHud": {
           "Position": [
-            0.7373627,
-            0.9375
+            0.73195255,
+            0.9166667
           ],
           "Keybind": [
             -1,
@@ -204,11 +204,11 @@
       },
       {
         "Aura": {
-          "Range": 6.0,
-          "ThroughWallsRange": 6.0,
+          "Range": 4.4,
+          "ThroughWallsRange": 4.4,
           "ElytraOverride": true,
-          "ElytraRange": 6.0,
-          "ElytraThroughWallsRange": 6.0,
+          "ElytraRange": 3.2,
+          "ElytraThroughWallsRange": 3.2,
           "WallsBypass": "Off",
           "RenderFOV": false,
           "CircleColor": [
@@ -222,7 +222,7 @@
             280,
             false
           ],
-          "NursulantCrit": false,
+          "NursulantCrit": true,
           "RotationElytra": "HolyWorld",
           "RotationMode": "HolyWorld",
           "AimBone": "Nearest",
@@ -242,7 +242,7 @@
           "OnlyCrits": false,
           "AutoJump": false,
           "SmartShieldBreak": true,
-          "SwitchToMaceAfterBreak": true,
+          "SwitchToMaceAfterBreak": false,
           "MaceSwapDelay": 2,
           "CritOnEating": true,
           "ShieldBreaker": true,
@@ -255,7 +255,7 @@
             -1,
             false
           ],
-          "MinCPS": 20,
+          "MinCPS": 19,
           "MaxCPS": 19,
           "ESP": "Skull",
           "ESPSettings": "net.eblan.client.setting.impl.SettingGroup@66c7bbda",
@@ -266,7 +266,7 @@
           "Sort": "LowestDistance",
           "LockTarget": true,
           "Advanced": "net.eblan.client.setting.impl.SettingGroup@2b4c3c7e",
-          "AimRange": 64.0,
+          "AimRange": 6.9,
           "ShieldDesyncHVH": false,
           "ShieldDesyncOnlyAura": true,
           "MultiAura": false,
@@ -274,9 +274,9 @@
           "AntiEntityWall": false,
           "RandomHitDelay": false,
           "PauseInInventory": false,
-          "DropSprint": true,
+          "DropSprint": false,
           "ReturnSprint": true,
-          "WithDropKey": false,
+          "WithDropKey": true,
           "WithPackets": true,
           "RayTrace": "OnlyTarget",
           "GrimRayTrace": false,
@@ -306,7 +306,7 @@
           "OnlyPlayers": true,
           "MaceCooldown": true,
           "MaceDelay": 1.0,
-          "MultiPoints": false,
+          "MultiPoints": true,
           "MultiPointCount": 16,
           "MultiPointCoverage": 1.3,
           "MultiPointSpeed": 1.0,
@@ -504,7 +504,7 @@
             false
           ],
           "Drawn": true,
-          "Enabled": true
+          "Enabled": false
         }
       },
       {
@@ -600,19 +600,19 @@
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
         "AutoSprint": {
           "СохранятьСпринт": true,
-          "Motion": 1.0,
+          "Motion": 0.0,
           "ОстанавливатьПриЕде": false,
           "ОстанавливатьПриАуре": false,
           "Спринт в Воде": true,
           "ОстанавливатьСпринтАтаку": "None",
-          "МинЗадержкаВосстановления": 300.0,
-          "МаксЗадержкаВосстановления": 1000.0,
+          "МинЗадержкаВосстановления": 10.0,
+          "МаксЗадержкаВосстановления": 10.0,
           "ВыключатьСпринтНаЭлитрах": false,
           "Keybind": [
             91,
@@ -624,29 +624,15 @@
       },
       {
         "AutoSwap": {
-          "Предмет1": "Totem",
-          "Предмет2": "Shield",
+          "Предмет1": "EnchantedTotem",
+          "Предмет2": "Totem",
           "КнопкаСвапа": [
-            280,
+            342,
             false
           ],
           "Обход": "None",
           "ОстановитьПоедание": true,
           "ОстановитьАуру": true,
-          "Keybind": [
-            59,
-            false
-          ],
-          "Drawn": true,
-          "Enabled": true
-        }
-      },
-      {
-        "AutoTool": {
-          "СвапОбратно": true,
-          "СохранятьПредмет": true,
-          "Тихо": true,
-          "ЕндерЧестШелк": true,
           "Keybind": [
             -1,
             false
@@ -656,8 +642,22 @@
         }
       },
       {
+        "AutoTool": {
+          "СвапОбратно": true,
+          "СохранятьПредмет": true,
+          "Тихо": true,
+          "ЕндерЧестШелк": true,
+          "Keybind": [
+            297,
+            false
+          ],
+          "Drawn": true,
+          "Enabled": false
+        }
+      },
+      {
         "AutoTotem": {
-          "ХП": 6.0,
+          "ХП": 4.7000003,
           "ПересчетТотемов": true,
           "ПроверкаНаКристал": false,
           "ДистанцияДоКристала": 6.0,
@@ -670,9 +670,9 @@
           "Bleach Перехват": false,
           "Bleach Задержка": 0,
           "Bleach ЗадежкаПосле": 0,
-          "RightClickGapple": "Off",
+          "RightClickGapple": "Always",
           "Keybind": [
-            88,
+            90,
             false
           ],
           "Drawn": true,
@@ -682,8 +682,8 @@
       {
         "Binds": {
           "Position": [
-            0.08935781,
-            0.24996407
+            0.17279604,
+            0.24051775
           ],
           "Keybind": [
             -1,
@@ -732,7 +732,7 @@
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
@@ -885,7 +885,7 @@
             false
           ],
           "Drawn": true,
-          "Enabled": true
+          "Enabled": false
         }
       },
       {
@@ -938,14 +938,14 @@
           "Неймтеги": true,
           "Режим неймтегов": "Клиентский",
           "Рендер бокса": false,
-          "FunTimeHP": true,
+          "FunTimeHP": false,
           "Absorption": true,
           "Keybind": [
-            -1,
+            93,
             false
           ],
           "Drawn": true,
-          "Enabled": true
+          "Enabled": false
         }
       },
       {
@@ -960,7 +960,7 @@
             false
           ],
           "Drawn": true,
-          "Enabled": true
+          "Enabled": false
         }
       },
       {
@@ -975,7 +975,7 @@
       },
       {
         "ElytraFly": {
-          "Скорость": 5.0,
+          "Скорость": 3.0,
           "Обход": "None",
           "ИспользоватьФейерверки": false,
           "ЗадержкаФейерверка": 1.5,
@@ -983,16 +983,16 @@
           "УмнаяСкорость": false,
           "Отладка": false,
           "Keybind": [
-            342,
+            -1,
             false
           ],
           "Drawn": true,
-          "Enabled": true
+          "Enabled": false
         }
       },
       {
         "ElytraMotion": {
-          "ДистанцияАтаки": 5.0,
+          "ДистанцияАтаки": 3.0,
           "АвтоФейерверк": true,
           "ТолькоКриты": true,
           "Keybind": [
@@ -1073,13 +1073,13 @@
       },
       {
         "FastBreak": {
-          "Режим": "Packet",
+          "Режим": "GrimInstant",
           "ДвойнаяДобыча": false,
           "СпособЗапуска": "StartAbort",
           "СпособСмены": "Alternative",
           "ЗадержкаСмены": 50,
           "Фактор": 1.0,
-          "Скорость": 0.5,
+          "Скорость": 0.0,
           "Дистанция": 4.2,
           "Поворот": false,
           "СтавитьКристалл": true,
@@ -1143,7 +1143,7 @@
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
@@ -1380,9 +1380,9 @@
       {
         "ItemsHelper": {
           "Задержка": 100,
-          "Режим": "Custom",
+          "Режим": "FT",
           "Тихо": true,
-          "СлотХотбара": 3,
+          "СлотХотбара": 2,
           "ЛегитныйРежим": false,
           "ЗадержкаСвапа": 100,
           "ВтораяРука": false,
@@ -1395,13 +1395,13 @@
             342,
             false
           ],
-          "Предмет 2": false,
+          "Предмет 2": true,
           "Предмет 3": false,
           "Предмет 4": false,
           "Предмет 5": false,
           "Предмет 6": false,
           "Дезорентация": [
-            88,
+            66,
             false
           ],
           "Трапка": [
@@ -1413,7 +1413,7 @@
             false
           ],
           "Явная пыль": [
-            78,
+            -1,
             false
           ],
           "Снежок": [
@@ -1421,7 +1421,7 @@
             false
           ],
           "Божья аура": [
-            66,
+            -1,
             false
           ],
           "Оглушение": [
@@ -1445,14 +1445,14 @@
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
         "ItemsHelperHud": {
           "Position": [
-            0.72719103,
-            0.6937545
+            0.7142854,
+            0.18667205
           ],
           "Keybind": [
             -1,
@@ -1604,7 +1604,7 @@
           "ЭлитрыСилаДерга": 4.0,
           "ЭлитрыЧувствительностьКПовороту": 0.7,
           "Keybind": [
-            -1,
+            85,
             false
           ],
           "Drawn": true,
@@ -1617,16 +1617,16 @@
           "МаксДистанция": 4.0,
           "Пополнять": true,
           "СлотПополнения": 9,
-          "Якоря": false,
-          "ЗадержкаЯкоря": 50,
+          "Якоря": true,
+          "ЗадержкаЯкоря": 49,
           "КлавишаЯкоря": [
-            89,
+            66,
             false
           ],
-          "Кристаллы": true,
-          "ЗадержкаКристалла": 5,
+          "Кристаллы": false,
+          "ЗадержкаКристалла": 25,
           "КлавишаКристалла": [
-            88,
+            66,
             false
           ],
           "МенятьНаклон": false,
@@ -1647,11 +1647,11 @@
           ],
           "ВозвращатьАрбалет": true,
           "Keybind": [
-            39,
+            -1,
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
@@ -1736,12 +1736,12 @@
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
         "NoBob": {
-          "Mode": "Sexy",
+          "Mode": "Off",
           "Keybind": [
             -1,
             false
@@ -1821,7 +1821,7 @@
       },
       {
         "NoSlow": {
-          "Режим": "NCP",
+          "Режим": "AresMine",
           "ОсновнаяРука": true,
           "Выбор": "net.eblan.client.setting.impl.SettingGroup@57eec03",
           "Еда": true,
@@ -1850,7 +1850,7 @@
           "ТолькоНаЗемле GrimV4": false,
           "ТолькоНаЗемле": false,
           "Keybind": [
-            44,
+            -1,
             false
           ],
           "Drawn": true,
@@ -1860,15 +1860,15 @@
       {
         "NotificationHud": {
           "Position": [
-            0.37236378,
-            0.25997028
+            0.37240067,
+            0.25997835
           ],
           "Keybind": [
             -1,
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
@@ -1940,7 +1940,7 @@
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
@@ -1970,8 +1970,8 @@
       {
         "Potions": {
           "Position": [
-            0.0669412,
-            0.4918927
+            0.0059237713,
+            0.5121476
           ],
           "Keybind": [
             -1,
@@ -2056,8 +2056,8 @@
           "АнтиТпКСебе": false,
           "ClanInvite": false,
           "ЗадержкаПриглашения": 10,
-          "/fix all": false,
-          "/feed": false,
+          "/fix all": true,
+          "/feed": true,
           "/near": false,
           "АвтоГПС": false,
           "Фармилка": false,
@@ -2147,17 +2147,17 @@
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
         "Speed": {
-          "Режим": "NCP",
+          "Режим": "GrimComboPlus",
           "ИспользоватьТаймер": false,
           "ПаузаВЖидкостях": false,
           "ПаузаПриПрисяде": false,
           "ВремяУрона": 0,
-          "ФакторУскорения": 0.4,
+          "ФакторУскорения": 0.2,
           "Разрешить в воздухе": true,
           "ТикиСдвига": 0,
           "СлотФейерверка": 1,
@@ -2176,11 +2176,11 @@
           "ПлавноеДвижение": false,
           "РасширениеКоробки": 2.5,
           "РасширениеКоробкиЭлитр": 2.0,
-          "ДистанцияКомбо+": 2.0,
+          "ДистанцияКомбо+": 3.6000001,
           "ФакторКомбо+": 0.2,
           "ПриоритетИгроковКомбо+": true,
           "Keybind": [
-            90,
+            82,
             false
           ],
           "Drawn": true,
@@ -2204,7 +2204,7 @@
       {
         "StaffList": {
           "Position": [
-            0.73330015,
+            0.6824297,
             0.15967946
           ],
           "Keybind": [
@@ -2236,7 +2236,7 @@
         "Stopper": {
           "Дистанция Падения": 0.0,
           "Keybind": [
-            -1,
+            88,
             false
           ],
           "Drawn": true,
@@ -2247,14 +2247,14 @@
         "StorageEsp": {
           "Outline": true,
           "Fill": false,
-          "Chest": true,
-          "Trapped Chest": true,
+          "Chest": false,
+          "Trapped Chest": false,
           "Dispenser": false,
           "Shulker": true,
-          "Ender Chest": true,
+          "Ender Chest": false,
           "Furnace": false,
           "Hopper": false,
-          "Barrel": true,
+          "Barrel": false,
           "Minecart": false,
           "ItemFrame": false,
           "ChestColor": [
@@ -2381,13 +2381,13 @@
       },
       {
         "TargetHud": {
-          "FollowTarget": true,
+          "FollowTarget": false,
           "FunTimeHP": false,
           "Absorption": true,
           "OnLook": true,
           "Position": [
-            0.32897827,
-            0.5726195
+            0.364683,
+            0.65726423
           ],
           "Keybind": [
             -1,
@@ -2502,10 +2502,10 @@
         "Velocity": {
           "OnlyDuringAura": false,
           "PauseInLiquids": false,
-          "Explosions": true,
-          "PauseOnFlag": true,
+          "Explosions": false,
+          "PauseOnFlag": false,
           "PauseOnFire": false,
-          "Mode": "Cancel",
+          "Mode": "GrimNew",
           "Vertical": 0.0,
           "JumpMode": "Jump",
           "Horizontal": 0.0,
@@ -2577,17 +2577,17 @@
       },
       {
         "WaterMark": {
-          "Отображать": "Название",
+          "Отображать": "Дискорд",
           "Position": [
-            0.3380404,
-            0.1689772
+            0.018393958,
+            0.019703258
           ],
           "Keybind": [
             -1,
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
@@ -2605,7 +2605,7 @@
           "МножительСкорости": 1.0,
           "ИспользоватьГоловнойПредмет": true,
           "Keybind": [
-            75,
+            -1,
             false
           ],
           "Drawn": true,
@@ -2629,7 +2629,7 @@
             false
           ],
           "Drawn": true,
-          "Enabled": false
+          "Enabled": true
         }
       },
       {
